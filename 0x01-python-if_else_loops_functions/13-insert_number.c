@@ -3,7 +3,7 @@
 
 /**
  * insert_node - inserts node in sorted list
- * @head: adress of head pointer
+ * @head: address of head pointer
  * @number: number to insert
  * Return: inserted node
  */
