@@ -1,5 +1,2 @@
 #!/usr/bin/python3
-for i in range(10):
-    for i in range(i, 10):
-        if i < j:
-            print("{:d}{:d}".format(i, j), end="\n" if i == 8 and j ==9 else ", ")
+print(", ".join("{:02d}".format(n) for n in range(90) if n / 10 < n % 10))
